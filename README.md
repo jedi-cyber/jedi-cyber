@@ -95,6 +95,7 @@ Kotlin · Android Studio · Room · Retrofit · Hilt · PHP · MySQL · Docker
 
 **Web & Backend**
 
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge\&logo=mysql\&logoColor=white)
 
@@ -124,6 +125,7 @@ Kotlin · Android Studio · Room · Retrofit · Hilt · PHP · MySQL · Docker
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jedidias-chi-feli)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:jedidiachino80@example.com)
 
 </div>
