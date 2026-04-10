@@ -110,9 +110,11 @@ Kotlin · Android Studio · Room · Retrofit · Hilt · PHP · MySQL · Docker
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=jedi-cyber&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jedi-cyber&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jedi-cyber&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jedi-cyber&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<img src="https://streak-stats.demolab.com/?user=jedi-cyber&theme=tokyonight&hide_border=true"/>
 
 </div>
 
