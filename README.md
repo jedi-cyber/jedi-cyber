@@ -1,30 +1,25 @@
-<!--
-**jedi-cyber/jedi-cyber** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:000000,50:0a1628,100:0066FF&height=220&section=header&text=JCF&fontSize=80&fontColor=4DA6FF&animation=fadeIn&fontAlignY=48&desc=Full%20Stack%20Developer%20in%20Training&descAlignY=68&descAlign=50&descColor=7EC8FF&descSize=22" width="100%"/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-# 👋 ¡Hola! Soy J C F
+<br/>
 
-💻 Estudiante de programación enfocado en desarrollo web, móvil y lógica de software.
-🚀 Me gusta crear proyectos completos que integren frontend, backend, base de datos y experiencia de usuario.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=16\&duration=2800\&pause=900\&color=4DA6FF\&center=true\&vCenter=true\&width=620\&lines=%3E+Inicializando+sistema...;%3E+Cargando+proyectos...;%3E+Desarrollador+Full+Stack;%3E+Construyendo+soluciones+reales)](https://git.io/typing-svg)
+
+</div>
 
 ---
 
-## 🧠 Sobre mí
-
-* 🎓 Estudiante de programación
-* 🛠️ Interesado en desarrollo full-stack y mobile
-* 📚 En constante aprendizaje
-* 🎯 Enfocado en optimización, arquitectura y buenas prácticas
+```python
+jcf = {
+    "rol": "Full Stack Developer",
+    "ubicacion": "Perú 🇵🇪",
+    "enfoque": ["Web", "Mobile", "Backend"],
+    "tecnologias": ["TypeScript", "PHP", "MySQL", "Kotlin"],
+    "proyectos": ["Almacén 3D", "TecnicApp"],
+    "objetivo": "Construir sistemas completos y eficientes"
+}
+```
 
 ---
 
@@ -32,99 +27,110 @@ Here are some ideas to get you started:
 
 ### 🧊 Almacén Digital 3D
 
-Simulador de almacén inteligente en 3D desarrollado con TypeScript y Three.js.
+🔗 https://github.com/jedi-cyber/almacenDigital.git
 
-🔗 Repositorio: https://github.com/jedi-cyber/almacenDigital.git
+💡 Simulador de almacén inteligente en 3D con lógica de colocación avanzada:
 
-💡 **¿Qué hace este proyecto?**
-
-* 📦 Simula colocación de productos sin colisiones
-* 📐 Calcula volumen ocupado y disponible
+* 📦 Colocación de productos sin colisiones (AABB)
+* 📐 Cálculo de volumen ocupado/libre
 * 🔄 Rotación en 6 orientaciones
 * 🔍 Búsqueda por SKU con enfoque automático
-* 🎮 Interacción completa con estantes
-* 💾 Persistencia en MySQL mediante API PHP
+* 🎮 Interacción completa con estantes (mover, rotar, redimensionar)
+* 💾 Persistencia en MySQL con API PHP
 
-🧠 **Lógica avanzada**
+🧠 Optimización:
 
-* Colisiones AABB
-* Compresión de coordenadas (optimización)
+* Compresión de coordenadas (alto rendimiento)
 * Validación espacial eficiente
 
-🎨 **Visual**
+🎨 Visual:
 
-* Renderizado 3D con Three.js
-* Animaciones con GSAP
-* Interfaz interactiva en navegador
+* Three.js + GSAP
+* Animaciones y entorno 3D interactivo
 
-🛠️ **Tecnologías**
+🛠️ Tech:
 TypeScript · Node.js · Three.js · GSAP · PHP · MySQL · Vitest
 
 ---
 
 ### 📱 TecnicApp 🛠️
 
-Sistema profesional de gestión técnica para talleres de reparación (Android).
+Sistema profesional de gestión técnica para talleres.
 
-💡 **¿Qué hace este proyecto?**
+💡 Funcionalidades:
 
-* 📋 Gestión de tickets y órdenes de servicio
-* 🎯 Prioridades y estados con indicadores visuales
-* ☁️ Sincronización híbrida (offline + nube)
-* 👥 Trabajo en equipo mediante grupos
-* 📊 Dashboard con gráficos y reportes
-* 📄 Exportación a PDF y Excel
+* 📋 Gestión de tickets y órdenes
+* 🎯 Prioridades y estados visuales
+* ☁️ Modo offline + sincronización
+* 👥 Trabajo en equipo
+* 📊 Dashboard con reportes
+* 📄 Exportación PDF / Excel
 
-🔧 **Características clave**
+🔧 Arquitectura:
 
-* Modo offline con almacenamiento local
-* Sincronización manual controlada
-* Indicadores de estado (local / nube)
-* Sistema multiusuario
+* 🔐 Seguridad con EncryptedSharedPreferences
+* 🧩 Inyección de dependencias (Hilt)
+* 🌐 Retrofit + API PHP
+* 💾 Room + migraciones
+* 🐳 Docker (backend + DB)
 
-🐳 **Despliegue moderno**
-
-* Docker para backend y base de datos
-* API PHP + MySQL lista en contenedores
-
-🧠 **Arquitectura y mejoras**
-
-* 🔐 Seguridad con EncryptedSharedPreferences (AES256)
-* 🧩 Inyección de dependencias con Hilt
-* 🌐 Red centralizada con Retrofit
-* ⚠️ Manejo de errores con interceptor global
-* 💾 Persistencia con Room + migraciones
-
-🛠️ **Tecnologías**
-Android Studio · Kotlin · Room · Retrofit · Hilt · PHP · MySQL · Docker
-
-📊 **Estado**
-✔️ Funcional y estable
-✔️ Seguridad implementada
+📊 Estado:
+✔️ Producción funcional
+✔️ Seguridad aplicada
 ✔️ Dockerizado
-🧪 Testing en expansión
+🧪 Testing en crecimiento
+
+🛠️ Tech:
+Kotlin · Android Studio · Room · Retrofit · Hilt · PHP · MySQL · Docker
 
 ---
 
-## 🧰 Tecnologías y herramientas
+## 🧠 Stack
 
-* 💡 Lenguajes: Java, Kotlin, JavaScript, TypeScript, SQL
-* 🌐 Web: HTML, CSS, PHP
-* 📱 Mobile: Android (Kotlin)
-* 🗄️ Base de datos: MySQL, Room
-* ⚙️ Herramientas: Git, GitHub, Docker, Vite, Vitest
+**Lenguajes**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=java\&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+
+**Web & Backend**
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge\&logo=mysql\&logoColor=white)
+
+**Herramientas**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge\&logo=visual%20studio%20code\&logoColor=white)
 
 ---
 
-## 📊 Estadísticas
+## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jedi-cyber\&show_icons=true\&theme=radical)
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=jedi-cyber&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jedi-cyber&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
 
 ---
 
 ## 📫 Contacto
 
-* ✉️ Email: [jedidiaschino80@example.com](mailto:jedidiachino80@example.com)
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:jedidiachino80@example.com)
+
+</div>
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0066FF,50:0a1628,100:000000&height=120&section=footer" width="100%"/>
+</div>
 
 ---
 
